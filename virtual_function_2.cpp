@@ -25,7 +25,7 @@ int main()
     DerivedClassB derivedClassObject;  // An object of type DerivedClassB
 
         
-    baseClassObject = &derivedClassObject;  
-    baseClassObject->display();  
+    baseClassObject = &derivedClassObject;  //base class object pointer gets the address of the derived class object
+    baseClassObject->display(); 
     return 0;  
 }  
