@@ -26,6 +26,7 @@ int main()
 
         
     baseClassObject = &derivedClassObject;  //base class object pointer gets the address of the derived class object
-    baseClassObject->display(); // Function overriding happens and baseClassObject uses the display() function in the derived class and not the one in the base class.
+    baseClassObject->display(); // Function overriding happens and baseClassObject uses the display() function in the  
+                                // derived class and not the display() function defined in the base class.
     return 0;  
 }  
